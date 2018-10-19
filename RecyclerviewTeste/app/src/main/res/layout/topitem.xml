@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative_layoutID"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/linear_layoutID1"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/white"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/layout_iconeID"
+            android:layout_width="41dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_circulo_cinza">
+
+            <ImageView
+                android:id="@+id/txt_dataID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/ic_cifrao" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_dataID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="14dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/empresaID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
+                android:text="29 Set. 18"
+                android:textColor="#95989a"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/layout_empresaID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/empresaID"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Onpax Conta Digital"
+                    android:textColor="#95989a"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_valorID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/txt_valorID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
+                android:text="R$ 49.99"
+                android:textColor="#95989a"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_transacaoID"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="4dp">
+
+            <ImageView
+                android:id="@+id/transacaoID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_transacoes"
+                android:contentDescription="TODO" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layoutID2"
+        android:layout_width="272dp"
+        android:layout_height="0.8dp"
+        android:layout_below="@+id/linear_layoutID1"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/linear_layoutID1"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="@+id/linear_layoutID1"
+        app:layout_constraintTop_toBottomOf="@+id/linear_layoutID1">
+
+        <View
+            android:id="@+id/Divisor"
+            android:layout_width="297dp"
+            android:layout_height="0.7dip"
+            android:layout_gravity="bottom"
+            android:background="#f0f0f0 "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

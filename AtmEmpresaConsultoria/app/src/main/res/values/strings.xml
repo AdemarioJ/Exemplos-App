@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AtmEmpresaConsultoria</string>
+    <string name="Sobre_detalhes">Sobre a empresa</string>
+    <string name="Servico_detalhes">Serviços</string>
+    <string name="texto_consultoria">Consultoria</string>
+    <string name="processos_consultoria">Processos</string>
+    <string name="Acompanhamento_consultoria">Acompanhamento e projeto</string>
+    <string name="alem_consultoria">...</string>
+    <string name="Clientes">Nossos Clientes</string>
+    <string name="cliente_1">Empresa de desenvolvimento de sistemas</string>
+    <string name="cliente_2">Empresa de auditoria</string>
+    <string name="contato_detalhes">Contato</string>
+    <string name="Contato_email">E-mail: ademariocc@gmail.com</string>
+    <string name="telefone_contato">Telefone: (81) 99682-215X</string>
+    <string name="celular_contato">Celular: (81) 99682-215X</string>
+</resources>

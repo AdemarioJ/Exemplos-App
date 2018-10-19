@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WhatsApp</string>
+    <string name="botao_cadastrar">Cadastrar</string>
+    <string name="texto_validacao">Validação</string>
+    <string name="texto_codigo">Você recebeu um SMS para validação do seu número, digite o código de validação abaixo:</string>
+    <string name="botao_validar">Validar</string>
+    <string name="botao_logar">Logar</string>
+    <string name="texto_cadastre">Não tem conta? Cadastre-se!</string>
+    <string name="item_configuracao">Configurações</string>
+    <string name="item_sair">Sair</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="adiciona">Adicionar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

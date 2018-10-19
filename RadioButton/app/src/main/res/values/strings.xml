@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RadioButton</string>
+    <string name="comida_preferida">Qual a sua comida preferida?</string>
+    <string name="Lasanha">Lasanha</string>
+    <string name="Feijoada">Feijoada</string>
+    <string name="Pao_com_queijo">Pão com Queijo</string>
+    <string name="Botao_escoher">Escolher</string>
+</resources>
